@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
   s.source_files = 'Classes/**/*'
   s.public_header_files = 'Classes/**/*.h'
   s.dependency 'Flutter'
-  s.dependency 'AgoraRtcEngine_iOS'
+  s.dependency 'AgoraRtcEngine_iOS', '3.5.0'
   s.dependency 'FaceUnity'
   s.platform = :ios, '9.0'
 
